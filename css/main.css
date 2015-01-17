@@ -1,36 +1,46 @@
 /* Enter your custom CSS here */
-body {
-  font-family: "Lucida Grande", sans-serif;
-  font-size: 125%
+.mockup-overlay {
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: .4;
 }
 .container {
-    margin: 0 0 0 30px;
-    text-align:left;
-    width: 885px;
-}
-.col-sm-7{
-    line-height: 2em;
-}
-h1{
     color: #666666;
-    font-size: 390%;
-    line-height: 200%;
 }
-h2{
-    margin-top: 0;
+
+h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
     color: #F07C17;
+    font-weight: bold;
 }
-li{
-    height: 200%
+h1 {  
+    font-family: Verdana, sans-serif;
+    font-size: 48px;
+    line-height: 100px;
+    text-align: center;
 }
-#features-border{
+.col-md-5 div{
+    margin: 28px 0 0 0;
+    padding: 10px 0 0 30px;
     border: 1px solid #CCCCCC;
-    box-sizing: border-box;    
-    padding: 30px;
-    margin-top: 30px;
-}    
-#features-border li, p{
+}
+.col-md-5 div ul {
+    font-size: 17px;
+    padding: 18px 0 33px 40px;
+}
+.col-md-5 div ul li{
+    margin: 8px 0 0 0;
+    font-weight: bold;
+}
+.col-md-7 {
+    top: -22px;
+}
+.col-md-7 p {
+    position: inherit;
+    top: 19px;
+    font-family: Verdana, sans-serif;
     font-size: 16px;
-    line-height: 200%;
-    color: #666666;
+    line-height: 32px;
 }
