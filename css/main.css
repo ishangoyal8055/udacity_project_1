@@ -1,42 +1,42 @@
 /* Enter your custom CSS here */
-.mockup-overlay {
-    top: 0;
-    position: absolute;
-    z-index: -1;
-    opacity: .4;
-}
 .container {
-    color: #666666;
+    color: #666;
 }
 
 h2 {
     font-family: Verdana, sans-serif;
     font-size: 24px;
-    color: #F07C17;
+    color: #f07c17;
     font-weight: bold;
 }
-h1 {  
+
+h1 {
     font-family: Verdana, sans-serif;
     font-size: 48px;
     line-height: 100px;
     text-align: center;
 }
-.col-md-5 div{
+
+.col-md-5 div {
     margin: 28px 0 0 0;
     padding: 10px 0 0 30px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #ccc;
 }
+
 .col-md-5 div ul {
     font-size: 17px;
     padding: 18px 0 33px 40px;
 }
-.col-md-5 div ul li{
+
+.col-md-5 div ul li {
     margin: 8px 0 0 0;
     font-weight: bold;
 }
+
 .col-md-7 {
     top: -22px;
 }
+
 .col-md-7 p {
     position: inherit;
     top: 19px;
