@@ -17,18 +17,18 @@ h1 {
     text-align: center;
 }
 
-.col-md-5 div {
+.nonimage {
     margin: 28px 0 0 0;
     padding: 10px 0 0 30px;
     border: 1px solid #ccc;
 }
 
-.col-md-5 div ul {
+.nonimage-ul {
     font-size: 17px;
     padding: 18px 0 33px 40px;
 }
 
-.col-md-5 div ul li {
+.nonimage-ul-li {
     margin: 8px 0 0 0;
     font-weight: bold;
 }
@@ -37,7 +37,7 @@ h1 {
     top: -22px;
 }
 
-.col-md-7 p {
+.main-text {
     position: inherit;
     top: 19px;
     font-family: Verdana, sans-serif;
